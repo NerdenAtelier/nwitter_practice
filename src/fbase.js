@@ -16,6 +16,6 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 
-export const authService = getAuth();
-export const dbService = getFirestore();
-export const fileService = getStorage();
+export const authService = getAuth(); //로그인 관련 인증 서비스
+export const dbService = getFirestore(); //트윗 데이터를 위한 Firestore
+export const fileService = getStorage(); //사진 저장을 위한 storage
